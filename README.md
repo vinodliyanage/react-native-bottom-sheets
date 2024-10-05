@@ -1,6 +1,6 @@
 # react-native-bottom-sheets
 
-A lightweight, developer-friendly wrapper around [@gorhom/bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) that simplifies the integration of bottom sheets in React Native projects.
+A lightweight, developer-friendly wrapper around [@gorhom/bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) that simplifies the integration of multiple bottom sheets in React Native projects.
 
 ![react native bottom sheet demo](./docs/assets/react-native-bottom-sheets.gif){width=300}
 
