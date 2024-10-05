@@ -1,0 +1,43 @@
+{
+  "name": "react-native-bottom-sheets",
+  "version": "1.0.0",
+  "description": "A tiny wrapper around @gorhom/bottom-sheet to make it easier to use in react-native projects.",
+  "author": "Vinod Liyanage <vinodsliyanage@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "web",
+    "bottom-sheet",
+    "bottomsheet",
+    "reanimated",
+    "sheet",
+    "gorhom",
+    "gorhom/bottom-sheet"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "peerDependencies": {
+    "@gorhom/bottom-sheet": "^4.6.3",
+    "@types/react": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-reanimated": "~3.10.1"
+  },
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
+}

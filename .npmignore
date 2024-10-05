@@ -1,0 +1,66 @@
+# Source code
+src/
+
+# TypeScript config
+tsconfig.json
+
+# Test files
+__tests__/
+*.test.ts
+*.test.tsx
+
+# Example files
+example/
+
+# Development config files
+.eslintrc.js
+.prettierrc
+.babelrc
+
+# Git related
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build process
+scripts/
+
+# Temporary files
+*.tmp
+*.temp
+
+# macOS related files
+.DS_Store
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# README files (optional, you might want to include README.md)
+# README.md
+
+# Documentation (if you have a separate docs folder)
+docs/
