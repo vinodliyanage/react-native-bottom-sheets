@@ -22,7 +22,6 @@ const useBottomSheets = () => {
 
   /**
    * Closes a bottom sheet.
-   * @param sheetName - The name of the bottom sheet to close.
    * @param callback - Optional callback to be called after closing the bottom sheet.
    */
   const closeBottomSheet = (callback?: EventCallback) => {
