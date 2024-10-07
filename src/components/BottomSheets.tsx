@@ -1,9 +1,5 @@
 import useBottomSheets from "../hooks/useBottomSheets";
-import { BottomSheetProps as GorhomBottomSheetProps } from "@gorhom/bottom-sheet";
-
-interface BottomSheetsProps extends Omit<GorhomBottomSheetProps, "children"> {
-  sheets: Record<string, React.ComponentType<any>>;
-}
+import { BottomSheetsProps } from "../types";
 
 const BottomSheets = ({ sheets, ...props }: BottomSheetsProps) => {
   const bottomSheet = useBottomSheets();

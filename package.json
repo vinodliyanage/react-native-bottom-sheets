@@ -1,6 +1,6 @@
 {
   "name": "react-native-bottom-sheets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny wrapper around @gorhom/bottom-sheet to make it easier to use in react-native projects.",
   "author": "Vinod Liyanage <vinodsliyanage@gmail.com>",
   "license": "MIT",

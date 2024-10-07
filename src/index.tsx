@@ -3,6 +3,6 @@ import BottomSheets from "./components/BottomSheets";
 
 import useBottomSheets from "./hooks/useBottomSheets";
 
-import { BottomSheetProps } from "./types";
+import { BottomSheetProps, BottomSheetsProps } from "./types";
 
-export { BottomSheet, BottomSheets, useBottomSheets, BottomSheetProps };
+export { BottomSheet, BottomSheets, useBottomSheets, BottomSheetProps, BottomSheetsProps };
